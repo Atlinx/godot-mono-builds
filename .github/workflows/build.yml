@@ -192,7 +192,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        target: [arm64, x86_64]
+        target: [x86_64]
     steps:
       - name: Set Environment Variables
         run: |
